@@ -1,0 +1,25 @@
+<html charset ="utf-8" >
+  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='../static/card/style.css'>
+
+<head>
+	<title>{% block title %} Titulo da Pagina {% endblock title %} </title>
+</head>
+
+<h1>{% block top %}Topo da Pagina {% endblock top %}</h1>
+<hr/>
+
+
+<body>
+{% block body %}
+	<h1>Corpo da Pagina</h1>
+
+{% endblock body %}
+
+<hr/>
+
+<h1>{% block footer %} Rodapé da Pagina {% endblock footer %} </h1>
+
+</body>
+</html>

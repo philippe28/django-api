@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../core/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20160215_1207.py	../core/migrations/0002_auto_20160215_1207.py	1;"	kind:file	line:1
+0003_produto_nome.py	../core/migrations/0003_produto_nome.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../rest/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../rest/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:92
+AppConfig	../core/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../rest/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CoreConfig	../core/apps.py	/^class CoreConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../rest/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	../rest/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DefaultRouter	../core/urls.py	/^from rest_framework.routers import DefaultRouter$/;"	kind:namespace	line:3
+HttpResponse	../core/views.py	/^from django.shortcuts import render, HttpResponse$/;"	kind:namespace	line:1
+INSTALLED_APPS	../rest/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../rest/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:111
+MIDDLEWARE_CLASSES	../rest/settings.py	/^MIDDLEWARE_CLASSES = [$/;"	kind:variable	line:44
+Migration	../core/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../core/migrations/0002_auto_20160215_1207.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../core/migrations/0003_produto_nome.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+ROOT_URLCONF	../rest/settings.py	/^ROOT_URLCONF = 'rest.urls'$/;"	kind:variable	line:55
+STATIC_URL	../rest/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:125
+TEMPLATES	../rest/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:57
+TIME_ZONE	../rest/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:113
+TestCase	../core/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../rest/settings.py	/^USE_I18N = True$/;"	kind:variable	line:115
+USE_L10N	../rest/settings.py	/^USE_L10N = True$/;"	kind:variable	line:117
+USE_TZ	../rest/settings.py	/^USE_TZ = True$/;"	kind:variable	line:119
+WSGI_APPLICATION	../rest/settings.py	/^WSGI_APPLICATION = 'rest.wsgi.application'$/;"	kind:variable	line:75
+_	../core/serializers.py	/^from django.utils.translation import ugettext_lazy as _$/;"	kind:namespace	line:3
+__init__.py	../core/__init__.py	1;"	kind:file	line:1
+__init__.py	../core/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../rest/__init__.py	1;"	kind:file	line:1
+admin	../core/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../core/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:4
+admin	../core/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:2
+admin	../rest/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:18
+admin.py	../core/admin.py	1;"	kind:file	line:1
+app_name	../core/urls.py	/^app_name = 'core'$/;"	kind:variable	line:7
+application	../rest/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../core/apps.py	1;"	kind:file	line:1
+authentication	../core/views.py	/^from rest_framework import authentication, permissions, viewsets$/;"	kind:namespace	line:2
+date	../core/serializers.py	/^from datetime import date$/;"	kind:namespace	line:1
+db	../core/migrations/0003_produto_nome.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../core/migrations/0003_produto_nome.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+dependencies	../core/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../core/migrations/0002_auto_20160215_1207.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../core/migrations/0003_produto_nome.py	/^    dependencies = [$/;"	kind:variable	line:12
+django	../core/migrations/0003_produto_nome.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django_filters	../core/forms.py	/^import django_filters$/;"	kind:namespace	line:1
+execute_from_command_line	../manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+field	../core/migrations/0002_auto_20160215_1207.py	/^            field=models.DecimalField(decimal_places=2, max_digits=9),$/;"	kind:variable	line:18
+field	../core/migrations/0003_produto_nome.py	/^            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:21
+fields	../core/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+forms.py	../core/forms.py	1;"	kind:file	line:1
+get_user_model	../core/forms.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_user_model	../core/serializers.py	/^from django.contrib.auth import get_user_model$/;"	kind:namespace	line:2
+get_wsgi_application	../rest/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../core/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+include	../rest/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:17
+index	../core/views.py	/^def index(request):    $/;"	kind:function	line:6
+initial	../core/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../core/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../core/migrations/0002_auto_20160215_1207.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../core/migrations/0003_produto_nome.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+model_name	../core/migrations/0002_auto_20160215_1207.py	/^            model_name='produto',$/;"	kind:variable	line:16
+model_name	../core/migrations/0003_produto_nome.py	/^            model_name='produto',$/;"	kind:variable	line:19
+models	../core/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../core/migrations/0002_auto_20160215_1207.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../core/migrations/0003_produto_nome.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../core/migrations/0003_produto_nome.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../core/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../core/models.py	1;"	kind:file	line:1
+name	../core/apps.py	/^    name = 'core'$/;"	kind:variable	line:5
+name	../core/migrations/0001_initial.py	/^            name='Produto',$/;"	kind:variable	line:17
+name	../core/migrations/0002_auto_20160215_1207.py	/^            name='preco',$/;"	kind:variable	line:17
+name	../core/migrations/0003_produto_nome.py	/^            name='nome',$/;"	kind:variable	line:20
+obtain_auth_token	../rest/urls.py	/^from rest_framework.authtoken.views import obtain_auth_token$/;"	kind:namespace	line:19
+operations	../core/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../core/migrations/0002_auto_20160215_1207.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../core/migrations/0003_produto_nome.py	/^    operations = [$/;"	kind:variable	line:17
+options	../core/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:28
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../rest/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../rest/wsgi.py	/^import os$/;"	kind:namespace	line:10
+permissions	../core/views.py	/^from rest_framework import authentication, permissions, viewsets$/;"	kind:namespace	line:2
+render	../core/views.py	/^from django.shortcuts import render, HttpResponse$/;"	kind:namespace	line:1
+requests	../core/views.py	/^import requests$/;"	kind:namespace	line:4
+reverse	../core/serializers.py	/^from rest_framework.reverse import reverse$/;"	kind:namespace	line:5
+reverse_lazy	../core/models.py	/^from django.core.urlresolvers import reverse_lazy$/;"	kind:namespace	line:2
+router	../core/urls.py	/^router = DefaultRouter()$/;"	kind:variable	line:16
+router	../rest/urls.py	/^from core.urls import router$/;"	kind:namespace	line:21
+serializers	../core/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:4
+serializers.py	../core/serializers.py	1;"	kind:file	line:1
+settings	../core/migrations/0003_produto_nome.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	../core/models.py	/^from django.conf import settings$/;"	kind:namespace	line:4
+settings.py	../rest/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../core/tests.py	1;"	kind:file	line:1
+unicode_literals	../core/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../core/migrations/0002_auto_20160215_1207.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../core/migrations/0003_produto_nome.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+url	../core/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+url	../rest/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:17
+urlpatterns	../core/urls.py	/^urlpatterns = [$/;"	kind:variable	line:8
+urlpatterns	../rest/urls.py	/^urlpatterns = [$/;"	kind:variable	line:23
+urls.py	../core/urls.py	1;"	kind:file	line:1
+urls.py	../rest/urls.py	1;"	kind:file	line:1
+views	../core/urls.py	/^from . import views$/;"	kind:namespace	line:5
+views.py	../core/views.py	1;"	kind:file	line:1
+viewsets	../core/views.py	/^from rest_framework import authentication, permissions, viewsets$/;"	kind:namespace	line:2
+wsgi.py	../rest/wsgi.py	1;"	kind:file	line:1
